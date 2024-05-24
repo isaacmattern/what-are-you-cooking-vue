@@ -5,9 +5,8 @@ import Navigation from './components/Navigation.vue';
 <template>
   <div class="main-container max-w-screen-xl p-4 m-auto">
     <Navigation />
-    <p>Current route: {{ $route.fullPath }}</p>
+    <router-view />
   </div>
 </template>
 
-<style scoped>
-</style>
+<style scoped></style>
